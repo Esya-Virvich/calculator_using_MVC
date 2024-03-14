@@ -1,0 +1,11 @@
+def calculate(first_number, second_number, operator):
+    if operator == "+":
+        return first_number + second_number
+    elif operator == "-":
+        return first_number - second_number
+    elif operator == "*":
+        return first_number * second_number
+    elif operator == "/":
+        return first_number / second_number
+    else:
+        return None
