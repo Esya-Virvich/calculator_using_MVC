@@ -1,0 +1,9 @@
+from model import calculate
+from view import get_user_input, display_result
+
+def start():
+    first_number = get_user_input("Введите первое число: ")
+    second_number = get_user_input("Введите второе число: ")
+    operator = input("Выберите операцию (+, -, *, /): ")
+    result = calculate(first_number, second_number, operator)
+    display_result(result)
